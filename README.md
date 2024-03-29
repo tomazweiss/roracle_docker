@@ -10,7 +10,7 @@ Before building the image, the user should create a subfolder `oracle` with the 
 - oracle-instantclient-devel-21.13.0.0.0-1.el8.x86_64.rpm
 - ROracle_1.4-1_R_x86_64-unknown-linux-gnu.tar.gz
 
-These files can be downloaded from
+These files can be downloaded from:
 - https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html
 - https://www.oracle.com/database/technologies/roracle-downloads.html
 
