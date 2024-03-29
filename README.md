@@ -13,4 +13,5 @@ Before building the image, the user should create a subfolder `oracle` with the 
 These files can be downloaded from
 - https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html
 - https://www.oracle.com/database/technologies/roracle-downloads.html
-A free Oracle account may be requiered for access.
+
+A free Oracle account may be required for access.
