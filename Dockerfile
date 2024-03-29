@@ -20,5 +20,4 @@ RUN sudo sh -c  'echo /usr/lib/oracle/21/client64/lib/ > /etc/ld.so.conf.d/oracl
 ENV LD_LIBRARY_PATH=/usr/lib/oracle/21/client64/lib/${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}
 
 ## download tar.gz from https://www.oracle.com/database/technologies/roracle-downloads.html
-RUN R CMD INSTALL --configure-args='--with-oci-lib=/usr/lib/oracle/21/client64/lib --with-oci-inc=/usr/include/oracle/21/client64'  oracle/ROracle_1.4-1_R_x86_64-unknown-linux-gnu.tar.gz
-
+RUN R CMD INSTALL --configure-args='--with-oci-lib=/usr/lib/oracle/21/client64/lib --with-oci-inc=/usr/include/oracle/21/client64' oracle/ROracle_1.4-1_R_x86_64-unknown-linux-gnu.tar.gz
