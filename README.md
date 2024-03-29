@@ -4,6 +4,7 @@ ROracle is an open source R package supporting a DBI-compliant Oracle driver bas
 The installation of this package, however, can be a bit challenging. 
 
 This repo provides a Dockerfile, based on the rocker/tidyverse image, that adds ROracle package.
+A similar script can be used to add this package to a non-dockerized Ubuntu installation.
 
 Before building the image, the user should create a subfolder `oracle` with the following files:
 - oracle-instantclient-basiclite-21.13.0.0.0-1.el8.x86_64.rpm
@@ -15,3 +16,4 @@ These files can be downloaded from:
 - https://www.oracle.com/database/technologies/roracle-downloads.html
 
 A free Oracle account may be required for access.
+Depending on your Oracle in R installations, different package versions may be needed.
