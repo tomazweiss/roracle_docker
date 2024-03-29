@@ -16,4 +16,4 @@ These files can be downloaded from:
 - https://www.oracle.com/database/technologies/roracle-downloads.html
 
 A free Oracle account may be required for access.
-Depending on your Oracle in R installations, different package versions may be needed.
+Depending on your Oracle and R installations, different package versions may be needed.
