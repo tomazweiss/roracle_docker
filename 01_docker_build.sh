@@ -1,0 +1,1 @@
+docker build . -t roracle:v0.1
