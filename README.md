@@ -1,4 +1,4 @@
-# Adding ROracle package to rocker/tidyverse Docker image
+# Adding ROracle package to the rocker/tidyverse Docker image
 
 ROracle is an open source R package supporting a DBI-compliant Oracle driver based on the high performance OCI library. It enables highly scalable and performant connectivity to Oracle Database for data transfer.
 The installation of this package, however, can be a bit challenging. 
